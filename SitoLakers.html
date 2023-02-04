@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/5.2/assets/css/docs.css">
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="lakers.css">
+</head>
+
+<body>
+  <div class="bg">
+    <div class="h">
+      <nav class="navbar navbar-expand-sm bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/Attvita/immagine/Lakers3.jpg" alt="Bootstrap" width="40" height="30">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">LAKERS</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#brand">BRAND</a></li>
+                  <li><a class="dropdown-item" href="#squadra">PREMI SQUADRA</a></li>
+                  <li><a class="dropdown-item" href="#individuali">PREMI INDIVIDUALI</a></li>
+                  <li><a class="dropdown-item" href="#stadio">STADIO</a></li>
+                </ul>
+              </li>
+              
+
+                <a class="nav-link" aria-current="page" href="negozioLakers.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
+                  </svg>
+                  NEGOZIO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">SOCIAL</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/lakers/" style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                  </svg>
+                  </a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/losangeleslakers/" style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                  </a></li>
+                  <li><a class="dropdown-item" href="https://it.wikipedia.org/wiki/Los_Angeles_Lakers" style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wikipedia" viewBox="0 0 16 16">
+                      <path d="M8.835 3.003c.828-.006 2.688 0 2.688 0l.033.03v.288c0 .08-.045.12-.133.12-.433.02-.522.063-.68.29-.087.126-.258.393-.435.694l-1.52 2.843-.043.089 1.858 3.801.113.031 2.926-6.946c.102-.28.086-.478-.044-.595-.132-.114-.224-.18-.563-.195l-.275-.014a.161.161 0 0 1-.096-.035.1.1 0 0 1-.046-.084v-.289l.042-.03h3.306l.034.03v.29c0 .078-.045.117-.133.117-.433.02-.754.113-.962.281a1.64 1.64 0 0 0-.488.704s-2.691 6.16-3.612 8.208c-.353.672-.7.61-1.004-.019A224.05 224.05 0 0 1 8.044 8.81c-.623 1.285-1.475 3.026-1.898 3.81-.411.715-.75.622-1.02.019-.45-1.065-1.131-2.519-1.817-3.982-.735-1.569-1.475-3.149-1.943-4.272-.167-.4-.293-.657-.412-.759-.12-.1-.368-.16-.746-.18C.069 3.429 0 3.395 0 3.341v-.303l.034-.03c.615-.003 3.594 0 3.594 0l.034.03v.288c0 .08-.05.118-.15.118l-.375.016c-.322.013-.483.11-.483.288 0 .083.034.217.109.4.72 1.753 3.207 6.998 3.207 6.998l.091.023 1.603-3.197-.32-.71L6.24 5.095s-.213-.433-.286-.577l-.098-.196c-.387-.77-.411-.82-.865-.88-.137-.017-.208-.035-.208-.102v-.304l.041-.03h2.853l.075.024v.303c0 .069-.05.104-.15.104l-.206.03c-.523.04-.438.254-.09.946l1.057 2.163 1.17-2.332c.195-.427.155-.534.074-.633-.046-.055-.202-.144-.54-.158l-.133-.015a.159.159 0 0 1-.096-.034.099.099 0 0 1-.045-.085v-.288l.041-.03Z"/>
+                    </svg>
+                  </a></li>
+                </ul>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="info.html">SUPPORTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="concact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="curriculum.html">CURRICULUM</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Attvita/immagine/logo2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="/Attvita/immagine/carousel1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item ">
+          <img src="/Attvita/immagine/carousel2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item ">
+          <img src="/Attvita/immagine/carousel3.png" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div style="text-align: center;">
+      <h1 id="brand" style="color: blueviolet;">BRAND</h1>
+      <div class="i">
+        <div class="card" style="max-width: 1000px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/Attvita/immagine/download (2).png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">I Los Angeles Lakers sono una delle trenta squadre di pallacanestro che
+                  giocano nella NBA ,
+                  il campionato professionistico degli Stati Uniti d'America.
+                  I Lakers disputano le loro partite casalinghe alla Crypto.com Arena che dividono con i
+                  rivali Los Angeles Clippers e con la squadra femminile le Los Angeles Sparks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-right: 24px;">
+      <h1 id="squadra" - style="color: blueviolet;">PREMI SQUADRA</h1>
+      <ul id="data">
+        <table class="table table-success table-striped">
+          <tr class="table-warning">
+            <th class="col-sm-4">NUMERO_TITOLO</th>
+            <th class="col-sm-8">ANNO</th>
+          </tr>
+          <tr class="table-warning">
+            <td>1</td>
+            <td>1949</td>
+          </tr>
+          <tr class="table-warning">
+            <td>2</td>
+            <td>1950</td>
+          </tr>
+          <tr class="table-warning">
+            <td>3</td>
+            <td>1952</td>
+          </tr>
+          <tr class="table-warning">
+            <td>4</td>
+            <td>1953</td>
+          </tr>
+          <tr class="table-warning">
+            <td>5</td>
+            <td>1954</td>
+          </tr>
+          <tr class="table-warning">
+            <td>6</td>
+            <td>1972</td>
+          </tr>
+          <tr class="table-warning">
+            <td>7</td>
+            <td>1980</td>
+          </tr>
+        </table>
+      </ul>
+      <div class="col-12">
+        <button id="button" class="btn danger" onclick="storia_riduci()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+            <path fill-rule="evenodd"
+              d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+          </svg>
+        </button>
+        <button id="button" class="btn btn-dark" onclick="storia_espandi()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+            <path fill-rule="evenodd"
+              d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="text-center">
+      <h1 id="individuali" style="color: blueviolet;">PREMI INDIVIDUALI</h1>
+
+      <ul id="date" style="margin-right: 24px;">
+        <table class="table table-success table-striped">
+          <tr class="table-warning">
+            <th class="col-sm-4">TITOLO</th>
+            <th class="col-sm-4">GIOCATORE</th>
+            <th class="col-sm-2">NUMERI_TITOLI</th>
+            <th class="col-sm-2">ANNO</th>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP</td>
+            <td>K. Abdul-Jabbar</td>
+            <td>3</td>
+            <td>1976-1977-1980</td>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP</td>
+            <td>M. Johnson</td>
+            <td>6</td>
+            <td>1987-1989-1990</td>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP</td>
+            <td>O'neal</td>
+            <td>7</td>
+            <td>2000</td>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP</td>
+            <td>Bryant</td>
+            <td>8</td>
+            <td>2008</td>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP FINALS</td>
+            <td>Jerry West</td>
+            <td>9</td>
+            <td>1969</td>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP FINALS</td>
+            <td>Chamberlein</td>
+            <td>10</td>
+            <td>1972</td>
+          </tr>
+          <tr class="table-warning">
+            <td>MVP FINALS</td>
+            <td>M. Johnson</td>
+            <td>13</td>
+            <td>1980-1982-1987</td>
+          </tr>
+        </table>
+      </ul>
+      <div class="col-12">
+        <button id="button" class="btn danger" onclick="giocatori_riduci()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+            <path fill-rule="evenodd"
+              d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+          </svg>
+        </button>
+        <button id="button" class="btn btn-dark" onclick="Giocatori_espandi()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+            <path fill-rule="evenodd"
+              d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="text-center">
+      <h1 id="stadio" style="color: blueviolet;">CRYPTO DAKOTA ARENA</h1>
+    </div>
+
+    <img src="/Attvita/immagine/cryptodakota2.jpg" class="d-block w-100" alt="...">
+
+    <p>
+      E' un'arena polivalente nel centro di Los Angeles. È situata vicino al complesso del Los Angeles Convention Center
+      lungo Figueroa Street.
+      L'arena è stata inaugurata il 17 ottobre 1999. Ha una capienza di 19067 spettatori.
+      La progettazione e la costruzione del palazzo sono state finanziate privatamente per un costo di 375 milioni di
+      dollari.
+      L'arena ospita i Los Angeles Kings dell'NHL, i Los Angeles Lakers, i Los Angeles Clippers della NBA e i Los
+      Angeles Sparks della WNBA.
+      È l'unica arena della NBA condivisa da due squadre, nonché uno dei soli tre impianti sportivi professionistici
+      nordamericani ad ospitare due squadre della stessa lega.
+      Ha ospitato diversi pay per view della WWE, tra cui WrestleMania 21, show di punta della federazione, che ha avuto
+      20.193 spettatori, stabilendo il record di pubblico presente.
+      Ha ospitato 5 edizioni consecutive di SummerSlam dal 2009 al 2014.
+      La Crypto.com Arena inoltre, è stata scelta come sede per la celebrazione del funerale di Michael Jackson
+      (deceduto il 25 giugno 2009) tenuto il 7 luglio 2009.
+      Il 28 ottobre 2016 ha ospitato le finali del campionato mondiale del videogioco League of Legends.
+      Il 17 novembre 2021 è stato annunciato un accordo ventennale con il noto exchange di criptovalute Crypto.com per
+      modificare il nome in Crypto.com Arena.
+      La modifica del nome è diventata effettiva a partire dal 25 dicembre 2021.
+    </p>
+    
+    
+
+    
+
+  </div>
+  <!-- CLASSIFICA NBA-->
+    
+
+  <!-- PREMI SQUADRA-->
+  <script>
+    function storia_espandi() {
+
+      var mostraiscritti = new XMLHttpRequest();
+      mostraiscritti.open("GET", "storia1.json", true);
+      mostraiscritti.send();
+      mostraiscritti.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status == 200) {
+          var risposta = JSON.parse(mostraiscritti.responseText);
+          //console.log(risposta)
+          var S1 = risposta.S1;
+          var mostra = '';
+          // for (let i = 0; i < iscritti.length; i++) { esempio con la lista in cui si fa la deserializzazione (avremo un elenco con i pallini)
+          //     mostra+='<li>' + iscritti[i].firstName + " " +iscritti[i].lastName +  "</li>";
+
+          // }
+          var mostra = '<table class="table table-success table-striped">  <tr class= "table-warning"><div class="col-sm-4"> <th>NUMERO_TITOLO </th> </div> <div class="col-sm-8"> <th>ANNO</th> </div>  </tr>'; // esempio dove si utilizza  metodo delle tabelle per deserializzazione (avremo una teablla nome, cognome)
+          for (let i = 0; i < S1.length; i++) { // bisogna prima creare una variabile con all'interno i titoli della tabella
+
+            mostra += '<tr class="table-warning">' + '<td>' + S1[i].NUMERO_TITOLO + "</td>  <td>" + S1[i].ANNO + "</td> </td>";
+
+          }
+          mostra += "</table>"
+          document.getElementById("data").innerHTML = mostra;
+        }
+      };
+    }
+
+    function storia_riduci() {
+
+      var mostraiscritti = new XMLHttpRequest();
+      mostraiscritti.open("GET", "storia2.json", true);
+      mostraiscritti.send();
+      mostraiscritti.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status == 200) {
+          var risposta = JSON.parse(mostraiscritti.responseText);
+          //console.log(risposta)
+          var S2 = risposta.S2;
+          var mostra = '';
+          // for (let i = 0; i < iscritti.length; i++) { esempio con la lista in cui si fa la deserializzazione (avremo un elenco con i pallini)
+          //     mostra+='<li>' + iscritti[i].firstName + " " +iscritti[i].lastName +  "</li>";
+
+          // }
+          var mostra = '<table class="table table-success table-striped">  <tr class= "table-warning"><div class="col-sm-4"> <th>NUMERO_TITOLO </th> </div> <div class="col-sm-8"> <th>ANNO</th> </div>  </tr>'; // esempio dove si utilizza  metodo delle tabelle per deserializzazione (avremo una teablla nome, cognome)
+          for (let i = 0; i < S2.length; i++) { // bisogna prima creare una variabile con all'interno i titoli della tabella
+
+            mostra += '<tr class="table-warning">' + '<td>' + S2[i].NUMERO_TITOLO + "</td>  <td>" + S2[i].ANNO + "</td>";
+
+          }
+          mostra += "</table>"
+          document.getElementById("data").innerHTML = mostra;
+        }
+      };
+    }
+  </script>
+  <!-- PREMI INDIVIDUALI-->
+  <script>
+    function Giocatori_espandi() {
+
+      var mostraiscritti = new XMLHttpRequest();
+      mostraiscritti.open("GET", "gioc1.json", true);
+      mostraiscritti.send();
+      mostraiscritti.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status == 200) {
+          var risposta = JSON.parse(mostraiscritti.responseText);
+          //console.log(risposta)
+          var G1 = risposta.G1;
+          var mostra = '';
+          // for (let i = 0; i < iscritti.length; i++) { esempio con la lista in cui si fa la deserializzazione (avremo un elenco con i pallini)
+          //     mostra+='<li>' + iscritti[i].firstName + " " +iscritti[i].lastName +  "</li>";
+
+          // }
+          var mostra = '<table class="table table-success table-striped">  <tr class="table-warning"><div class="col-sm-4"> <th> TITOLO </th> </div> <div class="col-sm-4"> <th>GIOCATORE</th> </div> <div class="col-sm-2"> <th>NUMERI_TITOLI</th> </div> <div class="col-sm-2"> <th>ANNO</th> </div> </tr>'; // esempio dove si utilizza  metodo delle tabelle per deserializzazione (avremo una teablla nome, cognome)
+          for (let i = 0; i < G1.length; i++) { // bisogna prima creare una variabile con all'interno i titoli della tabella
+
+            mostra += '<tr class="table-warning">' + '<td>' + G1[i].TITOLO + "</td>  <td>" + G1[i].GIOCATORE + "</td> <td>" + G1[i].NUMERI_TITOLI + "</td> <td>" + G1[i].ANNO + "</td>";
+          }
+          mostra += "</table>"
+          document.getElementById("date").innerHTML = mostra;
+        }
+      };
+    }
+    function giocatori_riduci() {
+
+      var mostraiscritti = new XMLHttpRequest();
+      mostraiscritti.open("GET", "gioc2.json", true);
+      mostraiscritti.send();
+      mostraiscritti.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status == 200) {
+          var risposta = JSON.parse(mostraiscritti.responseText);
+          //console.log(risposta)
+          var G2 = risposta.G2;
+          var mostra = '';
+          // for (let i = 0; i < iscritti.length; i++) { esempio con la lista in cui si fa la deserializzazione (avremo un elenco con i pallini)
+          //     mostra+='<li>' + iscritti[i].firstName + " " +iscritti[i].lastName +  "</li>";
+
+          // }
+          var mostra = '<table class="table table-success table-striped">  <tr class="table-warning"><div class="col-sm-4"> <th> TITOLO </th> </div> <div class="col-sm-4"> <th>GIOCATORE</th> </div> <div class="col-sm-2"> <th>NUMERI_TITOLI</th> </div> <div class="col-sm-2"> <th>ANNO</th> </div> </tr>'; // esempio dove si utilizza  metodo delle tabelle per deserializzazione (avremo una teablla nome, cognome)
+          for (let i = 0; i < G2.length; i++) { // bisogna prima creare una variabile con all'interno i titoli della tabella
+
+            mostra += '<tr class="table-warning">' + '<td>' + G2[i].TITOLO + "</td>  <td>" + G2[i].GIOCATORE + "</td> <td>" + G2[i].NUMERI_TITOLI + "</td> <td>" + G2[i].ANNO + "</td>";
+
+          }
+          mostra += "</table>"
+          document.getElementById("date").innerHTML = mostra;
+        }
+      };
+    }
+
+  </script>
+
+  <script>
+    function load() {
+
+      var mostraiscritti = new XMLHttpRequest();
+      mostraiscritti.open("GET", "https://it.global.nba.com/players/#!/stephen_curry", true);
+      mostraiscritti.send();
+      mostraiscritti.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status == 200) {
+          var risposta = JSON.parse(mostraiscritti.responseText);
+          //console.log(risposta)
+          var iscritti = risposta.iscritti;
+          var mostra = '';
+          // for (let i = 0; i < iscritti.length; i++) { esempio con la lista in cui si fa la deserializzazione (avremo un elenco con i pallini)
+          //     mostra+='<li>' + iscritti[i].firstName + " " +iscritti[i].lastName +  "</li>";
+
+          // }
+          var mostra = '<table> <tr> <th>nome</th> <th>cognome</th></tr>'; // esempio dove si utilizza  metodo delle tabelle per deserializzazione (avremo una teablla nome, cognome)
+          for (let i = 0; i < iscritti.length; i++) { // bisogna prima creare una variabile con all'interno i titoli della tabella
+            mostra += '<tr>' + '<td>' + iscritti[i].firstName + "</td> <td>" + iscritti[i].lastName + "</td>";
+
+          }
+          mostra += "</table>"
+          document.getElementById("dati").innerHTML = mostra;
+        }
+      };
+    }
+
+  </script>
+</body>
+
+</html>
