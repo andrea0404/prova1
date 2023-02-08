@@ -1,0 +1,72 @@
+{
+    "S1": [
+        {
+            "NUMERO_TITOLO": "1",
+            "ANNO": "1949"
+        },
+        {
+            "NUMERO_TITOLO": "2",
+            "ANNO": "1950"
+        },
+        {
+            "NUMERO_TITOLO": "3",
+            "ANNO": "1952"
+        },
+        {
+            "NUMERO_TITOLO": "4",
+            "ANNO": "1953"
+        },
+        {
+            "NUMERO_TITOLO": "5",
+            "ANNO": "1954"
+        },
+        {
+            "NUMERO_TITOLO": "6",
+            "ANNO": "1972"
+        },
+        {
+            "NUMERO_TITOLO": "7",
+            "ANNO": "1980"
+        },
+        {
+            "NUMERO_TITOLO": "8",
+            "ANNO": "1982"
+        },
+        {
+            "NUMERO_TITOLO": "9",
+            "ANNO": "1985"
+        },
+        {
+            "NUMERO_TITOLO": "10",
+            "ANNO": "1987"
+        },
+        {
+            "NUMERO_TITOLO": "11",
+            "ANNO": "1988"
+        },
+        {
+            "NUMERO_TITOLO": "12",
+            "ANNO": "2000"
+        },
+        {
+            "NUMERO_TITOLO": "13",
+            "ANNO": "2001"
+        },
+        {
+            "NUMERO_TITOLO": "14",
+            "ANNO": "2002"
+        },
+        {
+            "NUMERO_TITOLO": "15",
+            "ANNO": "2009"
+        },
+        {
+            "NUMERO_TITOLO": "16",
+            "ANNO": "2010"
+        },
+        {
+            "NUMERO_TITOLO": "17",
+            "ANNO": "2020"
+        }
+    ]
+}
